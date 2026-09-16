@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hexworks-core",
+  "version": "${version}",
+  "name": "HexWorks Core",
+  "description": "Core systems and shared APIs for the HexWorks ecosystem.",
+  "authors": [
+    "Drpep"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.hexworks.core.HexWorksCore"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,8 @@
+plugins {
+    id 'net.fabricmc.fabric-loom-remap' version '1.16-SNAPSHOT' apply false
+}
+
+allprojects {
+    group = 'dev.hexworks'
+    version = '1.0.0'
+}
